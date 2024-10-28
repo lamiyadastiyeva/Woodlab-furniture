@@ -1,0 +1,187 @@
+.generalHome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    z-index: 1;
+}
+.generalHome p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 2.4px;
+    font-family: Questrial, sans-serif;
+    margin-bottom: 10px;
+}
+.generalHome h3{
+    width: 450px;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: Questrial, sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
+.homeLeft{
+    width: 590px !important;
+    height: 384px;
+    background: url("../../images/homePage-bg6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px 0 60px;
+}
+.homeRight{
+    width: 590px !important;
+    height: 384px;
+    background: url("../../images/homePage-bg7.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px 0 60px;
+}
+.homeRight button.home-btn,
+.homeLeft button.home-btn{
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #000000;
+    background: #ffffff;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Questrial, sans-serif;
+    border: 0;
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    transition: .5s all;
+}
+.homeRight button.home-btn:hover,
+.homeLeft button.home-btn:hover{
+    color: #ffffff;
+}
+.homeRight button.home-btn::before,
+.homeLeft button.home-btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform .5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleY(0);
+}
+.homeRight button.home-btn:hover::before,
+.homeLeft button.home-btn:hover::before{
+    transform: scaleY(1);
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .generalHome{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        z-index: 1;
+    }
+    .homeLeft{
+        width: 620.5px !important;
+        height: 384px;
+        margin-bottom: 50px;
+    }
+    .homeRight{
+        width: 620.5px !important;
+        height: 384px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .generalHome{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        z-index: 1;
+    }
+    .homeLeft{
+        width: 100%;
+        max-width: 620.5px !important;
+        height: 384px;
+        margin-bottom: 50px;
+    }
+    .homeRight{
+        width: 100%;
+        width: 620.5px !important;
+        height: 384px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .generalHome{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        z-index: 1;
+    }
+    .homeLeft{
+        width: 100%;
+        max-width: 590px !important;
+        height: 330px;
+        margin-bottom: 50px;
+    }
+    .homeRight{
+        width: 100%;
+        width: 590px !important;
+        height: 330px;
+        margin-bottom: 50px;
+    }
+}
+

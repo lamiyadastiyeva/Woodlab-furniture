@@ -1,0 +1,74 @@
+.logo-images{
+    width: 100%;
+    height: 588px;
+    background: url("../../images/homePage-sec5-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: var(--marginTopBottom);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    background: none;
+}
+.logo-images .card img{
+    transition: .4s;
+}
+.logo-images .card:hover img{
+    transition: .4s;
+    transform: rotateY(180deg);
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .logo-images{
+        width: 100%;
+        height: 488px !important;
+    }
+    
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .logo-images{
+        width: 100%;
+        height: 388px !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .logo-images{
+        width: 100%;
+        height: 330px !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,327 @@
+.blog-sec2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blog-card{
+    width: 380px;
+    margin-bottom: 60px;
+}
+.blog-sec2-image{
+    width: 380px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.blog-sec2-image img{
+    width: 100%;
+    height: 100%;
+    transition: 1s all;
+    cursor: pointer;
+    object-fit: cover;
+}
+.blog-sec2-image:hover img{
+    transform: scale(1.2);
+}
+.blog-card .span{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Questrial, sans-serif;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    margin: 10px 0;
+}
+.blog-card h2{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Questrial, sans-serif;
+    line-height: 1.35;
+    color: #000;
+    margin: 5px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.blog-card p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Questrial, sans-serif;
+    color: #6c6c6c;
+    text-align: justify;
+}
+.blog-card button{
+    width: 180px;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    background: #000000;
+    color: #ffffff;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Questrial, sans-serif;
+    border: 0;
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    transition: .5s all;
+}
+.blog-card button:hover{
+    color: #ffffff;
+}
+.blog-card button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #a68d6f;
+    z-index: -1;
+    transition: transform .5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+}
+.blog-card button:hover::before{
+    transform: scaleX(1);
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .blog-sec2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .blog-card{
+        width: 350px !important;
+        margin-bottom: 60px;
+    }
+    .blog-sec2-image{
+        width: 360px !important;
+        height: 240px !important;
+        overflow: hidden;
+        position: relative;
+        object-fit: cover;
+    }
+    .blog-sec2-image img{
+        width: 100%;
+        height: 100%;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    .blog-card .span{
+        font-size: 15px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        text-transform: uppercase;
+        color: #6c6c6c;
+        margin: 10px 0;
+    }
+    .blog-card h2{
+        font-size: 22px;
+        font-weight: 500;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #000;
+        margin: 5px 0 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .blog-card p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        color: #6c6c6c;
+        text-align: justify;
+    }
+    .blog-card button{
+        width: 170px;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        text-transform: uppercase;
+        transition: .5s all;
+    }
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .blog-sec2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .blog-card{
+        width: 340px !important;
+        margin-bottom: 60px;
+    }
+    .blog-sec2-image{
+        width: 340px !important;
+        height: 220px !important;
+        overflow: hidden;
+        position: relative;
+        object-fit: cover;
+    }
+    .blog-sec2-image img{
+        width: 100%;
+        height: 100%;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    .blog-card .span{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        text-transform: uppercase;
+        color: #6c6c6c;
+        margin: 10px 0;
+    }
+    .blog-card h2{
+        font-size: 21px;
+        font-weight: 500;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #000;
+        margin: 5px 0 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .blog-card p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        color: #6c6c6c;
+        text-align: justify;
+    }
+    .blog-card button{
+        width: 160px;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        text-transform: uppercase;
+        transition: .5s all;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .blog-sec2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .blog-card{
+        width: 320px !important;
+        margin-bottom: 60px;
+    }
+    .blog-sec2-image{
+        width: 320px !important;
+        height: 200px !important;
+        overflow: hidden;
+        position: relative;
+        object-fit: cover;
+    }
+    .blog-sec2-image img{
+        width: 100%;
+        height: 100%;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    .blog-card .span{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        text-transform: uppercase;
+        color: #6c6c6c;
+        margin: 10px 0;
+    }
+    .blog-card h2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #000;
+        margin: 5px 0 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .blog-card p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14.5px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        color: #6c6c6c;
+        text-align: justify;
+    }
+    .blog-card button{
+        width: 150px;
+        font-size: 14px;
+        line-height: 35px;
+        letter-spacing: 1.5px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        text-transform: uppercase;
+        transition: .5s all;
+    }
+}

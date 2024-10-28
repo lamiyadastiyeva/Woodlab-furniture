@@ -1,0 +1,288 @@
+.contact-sec5{
+    width: 100%;
+    height: 248px;
+    margin: var(--marginTopBottom);
+    background: url("../../images/contact-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 100px 60px;
+}
+.contact-sec5 h2{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Questrial, sans-serif;
+    line-height: 1;
+    color: #222;
+}
+.contact-sec5 p{
+    margin: 0 0 17px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Questrial, sans-serif;
+    line-height: 1.7;
+    color: #707070;
+}
+.contact-sec5 .input-button-icons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-button-icons .quick-links{
+    width: 230px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+}
+.input-button-icons input{
+    width: 550px !important;
+    border: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: Questrial, sans-serif;
+    background: #fff;
+    line-height: 44px;
+    height: 44px;
+    margin-right: 20px;
+}
+.input-button-icons button{
+    width: 110px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    background: #000000;
+    color: #ffffff;
+    padding: 0px 16px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Questrial, sans-serif;
+    border: 0;
+    position: relative;
+    z-index: 0;
+    transition: .5s all;
+}
+.input-button-icons button:hover{
+    color: #ffffff;
+}
+.input-button-icons button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #a68d6f;
+    z-index: -1;
+    transition: transform .5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleY(0);
+}
+.input-button-icons button:hover::before{
+    transform: scaleY(1);
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .contact-sec5{
+        width: 100%;
+        height: 248px;
+        margin: var(--marginTopBottom);
+        background: url("../../images/contact-background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 65px 100px 60px;
+    }
+    .contact-sec5 h2{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #222;
+    }
+    .contact-sec5 p{
+        margin: 0 0 17px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        line-height: 1.7;
+        color: #707070;
+    }
+    .contact-sec5 .input-button-icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .input-button-icons input{
+        width: 510px !important;
+        border: 0;
+        padding: 0 20px;
+        font-size: 14px;
+        font-family: Questrial, sans-serif;
+        background: #fff;
+        line-height: 44px;
+        height: 44px;
+        margin-right: 20px;
+    }
+    .input-button-icons button{
+        width: 110px !important;
+        height: 44px !important;
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0px 16px;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        transition: .5s all;
+    }
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .contact-sec5{
+        width: 100%;
+        height: 248px;
+        margin: var(--marginTopBottom);
+        background: url("../../images/contact-background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 65px 60px 60px;
+    }
+    .contact-sec5 h2{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #222;
+    }
+    .contact-sec5 p{
+        margin: 0 0 17px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        line-height: 1.7;
+        color: #707070;
+    }
+    .contact-sec5 .input-button-icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .input-button-icons input{
+        width: 450px !important;
+        border: 0;
+        padding: 0 20px;
+        font-size: 14px;
+        font-family: Questrial, sans-serif;
+        background: #fff;
+        line-height: 42px;
+        height: 42px;
+        /* margin-right: 20px; */
+    }
+    .input-button-icons button{
+        width: 100px !important;
+        height: 42px !important;
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0px 16px;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        transition: .5s all;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .contact-sec5{
+        width: 100%;
+        height: 248px;
+        margin: var(--marginTopBottom);
+        background: url("../../images/contact-background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 65px 20px 60px;
+    }
+    .contact-sec5 h2{
+        font-size: 23px;
+        font-weight: 600;
+        font-family: Questrial, sans-serif;
+        line-height: 1;
+        color: #222;
+    }
+    .contact-sec5 p{
+        margin: 0 0 17px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Questrial, sans-serif;
+        line-height: 1.7;
+        color: #707070;
+    }
+    .contact-sec5 .input-button-icons{
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+    .input-button-icons input{
+        width: 360px !important;
+        border: 0;
+        padding: 0 20px;
+        font-size: 14px;
+        font-family: Questrial, sans-serif;
+        background: #fff;
+        line-height: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .input-button-icons button{
+        width: 90px !important;
+        height: 40px !important;
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        background: #000000;
+        color: #ffffff;
+        padding: 0px 16px;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: Questrial, sans-serif;
+        border: 0;
+        position: relative;
+        z-index: 0;
+        transition: .5s all;
+    }
+}

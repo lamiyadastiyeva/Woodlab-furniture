@@ -1,0 +1,299 @@
+.light-mode{
+  background: #333333 !important;
+  color: #fff;
+}
+.light-mode nav.navbar{
+  background-color: #574328;
+}
+.light-mode nav.navbar ul.navbar-nav li a{
+  color: #e6cbab !important;
+}
+.light-mode nav .nav-icons{
+  color: #e6cbab !important;
+}
+.light-mode .dropdown button.dropdown-item{
+  color: #e6cbab;
+  background-color: #574328;
+}
+.light-mode .dropdown button.btn{
+  color: #e6cbab;
+}
+.light-mode .dropdown button.btn:hover{
+  color: #e6cbab;
+}
+.light-mode .footer{
+  background-color: #574328;
+  color: #e6cbab;
+}
+.light-mode .footer-input .input::placeholder{
+  color: #574328;
+
+}
+.light-mode .footer-input .input:focus{
+  color: #574328;
+  background-color: #e6cbab;
+  outline: 0;
+}
+.light-mode .footer input::placeholder{
+  color: #574328;
+}
+.light-mode .footer-input .signbtn:hover{
+  background-color: #574328;
+  transition: .3s;
+}
+.light-mode .slider-title h2{
+  color: #c7c7c7;
+}
+.light-mode .carousel-item .card span{
+  color: #c7c7c7;
+}
+.light-mode .carousel-item .card h2{
+  color: #dc9b86
+}
+.light-mode .carousel-item .card p{
+  color: #fff8ee;
+}
+.light-mode .images-title h2{
+  color: #c7c7c7;
+}
+.light-mode .header nav ul li.link::after{
+  content: "";
+  position: absolute;
+  background-color: #e6cbab;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: .3s
+}
+.light-mode .header nav ul li.link:hover:after{
+  width: 100%;
+}
+.light-mode .about-sec3 span,
+.light-mode .about-sec2 span{
+  color: #dae8e8;
+}
+.light-mode .about-sec3 h2,
+.light-mode .about-sec2 h2{
+  color: #e6cbab;
+}
+.light-mode .about-sec4 h3{
+  color: #e6cbab;
+}
+.light-mode .blog-sec2 .blog-card .span{
+  color: #dae8e8;
+}
+.light-mode .blog-sec2 .blog-card h2{
+  color: #e6cbab;
+}
+.light-mode .blog-sec2 .blog-card p{
+  color: #c7c7c7;
+}
+.light-mode .products-filter h1,
+.light-mode .contact-left p,
+.light-mode .contact-right-text p{
+  color: #c7c7c7;
+}
+.light-mode .filter-buttons button{
+  background-color: #574328;
+}
+.light-mode .product-btn button.eye{
+  background-color: #574328;
+}
+.light-mode .product-info{
+  border: 1px solid #574328;
+}
+.light-mode .product-text h2,
+.light-mode .product-text p,
+.light-mode .contact-sec4 h2{
+  color: #e6cbab;
+}
+.light-mode .contact-left h2,
+.light-mode .contact-right-title p{
+  color: #e6cbab;
+}
+.light-mode table th{
+  background: #007662;
+}
+.light-mode table td.table-data{
+  border-bottom: 2px solid #007662;
+}
+.light-mode tr.cart-total{
+  border-bottom: 3px solid #007662;
+}
+.light-mode td button.quantity{
+  background: #007662;
+}
+.light-mode td button.minus-button{
+  background-color: #a68d6f;
+}
+.light-mode td button.plus-button{
+  background-color: #93b75c;
+}
+.light-mode td button.remove-button{
+  background-color: #4a9f73;
+}
+.light-mode td .general-remove-button{
+  background-color: #007662;
+}
+.light-mode .login-container{
+  background-color: #a68d6f;
+}
+.light-mode .login-container .separator span{
+  background-color: #a68d6f;
+}
+.light-mode .homeLeft{
+  background: url("../../images/homePage-bg10.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px 0 60px;
+}
+.light-mode .homeRight{
+  background: url("../../images/homePage-bg5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px 0 60px;
+}
+.light-mode .home-bg{
+  width: 100%;
+  height: 491px;
+  margin: var(--marginTopBottom);
+  background: url("../../images/homePage-back-img5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.light-mode .about-sec1,
+.light-mode .blog-sec1,
+.light-mode .shop-sec1,
+.light-mode .contact-sec1,
+.light-mode .login-sec1{
+  width: 100%;
+  height: 140px;
+  background: url("../../images/bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;    
+}
+.light-mode .load{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url('../../images/load-back-img3.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* button style */
+  .mode .checkbox{
+     
+      opacity: 0;
+     
+  }
+  .mode-btn{
+    width: 65px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label {
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      position: relative;
+      height: 18px;
+      width: 44px;
+      transform: scale(1.5);
+  }
+  .label .ball {
+      border: 2px solid #333;
+      border-radius: 50%;
+      position: absolute;
+      top: 0px;
+      left: 2px;
+      height: 18px;
+      width: 19px;
+      transform: translateX(1px);
+      transition: transform 0.2s linear;
+  }
+
+  .checkbox:checked + .label .ball {
+      transform: translateX(20.5px);
+  }
+
+  .fa-moon{
+    color: #eeeade;
+    font-size: 14px;
+
+}
+.fa-sun{
+  font-size: 14px;
+  color: yellow;
+
+}
+  
+@media(max-width: 768px) {
+ /* button style */
+  .mode{    
+  .label {
+      height: 15px;
+      width: 40px;
+  }
+  .label .ball {
+      position: absolute;
+      left: 1.5px;
+      height: 15px;
+      width: 16px;
+      border: 2px;
+      transform: translateX(1px);
+      transition: transform 0.2s linear;
+  }
+  .checkbox:checked + .label .ball {
+      transform: translateX(19px);
+  }
+  .fa-moon {
+      color: #eeeade;
+      font-size: 13px;
+  }
+  .fa-sun {
+    font-size: 13px;
+    color: yellow;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+   --paddingLeftRight: 0 100px;
+   --marginTopBottom: 100px 0;
+}
+a{
+    text-decoration: none;
+}
+.home{
+    padding-top: 90px;
+}
+.about{
+    padding-top: 90px;
+}
+.blog{
+    padding-top: 90px;
+}
+.shop{
+    padding-top: 90px;
+}
+.cart-page{
+    padding-top: 90px;
+}
+.contact-page{
+    padding-top: 90px;
+}
+.login{
+    padding-top: 90px;
+}
+.load{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/images/aboutPage-sec2-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 1200px;
+    }
+    .load{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 991px;
+    }
+    .load{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 768px;
+    }
+    .load{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,575 @@
+.login-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.login-image{
+    width: 670px;
+    height: 578.25px;
+}
+.login-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.login-container{
+    width: 670px;
+    height: 578.25px;
+    background-color: #a68d6f;
+    padding: 2rem 1.5rem;
+}
+.login-container .form-title{
+    text-align: center;
+    font-size: 1.37rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 1.87rem;
+    font-family: Questrial, sans-serif;
+    color: #fff;
+}
+.login-container .social-login{
+    display: flex;
+    gap: 1.31rem;
+}
+.social-login .social-button{
+    display: flex;
+    width: 100%;
+    gap: 0.81rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Questrial, sans-serif;
+    font-weight: 500;
+    padding: 0.75rem 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.31rem;
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 0.5s ease;
+    color: #000;
+}
+.social-login .social-button img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.login-container .separator{
+    margin: 1.5rem 0;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.login-container .separator span{
+    position: relative;
+    z-index: 1;
+    background-color: #a68d6f;
+    padding: 0 0.9rem;
+    font-size: 1.06rem;
+    font-weight: 500;
+}
+.login-container .separator::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+
+}
+.login-form .input-wrapper{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.login-form .input-wrapper .input-field{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 1.06rem;
+    border-radius: 0.31rem;
+    border: 1px solid #d5cbff;
+    padding: 0 1.25rem 0 3.12rem;
+    transition: 0.2s ease;
+    color: rgb(226, 194, 134)
+}
+.login-form .input-wrapper .input-field:focus{
+    color: rgb(139, 105, 40);
+}
+.login-form .input-wrapper .input-field::placeholder{
+    color: rgb(226, 194, 134);
+    font-size: 17px;
+    font-family: Questrial, sans-serif;
+}
+.login-form .input-wrapper .input-field:focus::placeholder{
+    color: rgb(139, 105, 40);
+}
+.login-form .input-wrapper .icon{
+    color: rgb(226, 194, 134);
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    top: 54%;
+    left: 0.9rem;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+}
+.login-form .input-wrapper .input-field:focus ~ .icon{
+    color: rgb(139, 105, 40);
+}
+.login-form .forgot-pass-link{
+    display: block;
+    width: fit-content;
+    margin-top: -0.46rem;
+}
+.login-form .login-button{
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #000;
+    background: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-family: Questrial, sans-serif;
+    margin-top: 2.19rem;
+    border-radius: 0.31rem;
+    transition: 0.5s all;
+    position: relative;
+    z-index: 0;
+}
+.login-form .login-button:hover{
+    color: #ffffff;
+}
+.login-form .login-button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 0.31rem;
+    z-index: -1;
+    transition: transform .5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+}
+.login-form .login-button:hover::before{
+    transform: scaleX(1);
+}
+.login-container .signup-text{
+    text-align: center;
+    font-weight: 500;
+    font-family: Questrial, sans-serif;
+    margin: 1.75rem 0 0.31rem;
+}
+.login-container a{
+    font-weight: 500;
+    color: #fff;
+}
+.login-container a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .login-page{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .login-image{
+        width: 670px;
+        height: 578.25px;
+    }
+    .login-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .login-container{
+        width: 670px;
+        height: 578.25px;
+        background-color: #a68d6f;
+        padding: 2rem 1.5rem;
+    }
+    .login-container .form-title{
+        text-align: center;
+        font-size: 1.37rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 1.87rem;
+        font-family: Questrial, sans-serif;
+        color: #fff;
+    }
+    .login-container .social-login{
+        display: flex;
+        gap: 1.31rem;
+    }
+    .social-login .social-button{
+        display: flex;
+        width: 100%;
+        gap: 0.81rem;
+        cursor: pointer;
+        font-size: 1rem;
+        font-family: Questrial, sans-serif;
+        font-weight: 500;
+        padding: 0.75rem 0;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.31rem;
+        border: 1px solid #fff;
+        background: #fff;
+        transition: 0.5s ease;
+        color: #000;
+    }
+    .social-login .social-button img{
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .login-container .separator{
+        margin: 1.5rem 0;
+        text-align: center;
+        position: relative;
+        color: #fff;
+    }
+    .login-container .separator span{
+        position: relative;
+        z-index: 1;
+        background-color: #a68d6f;
+        padding: 0 0.9rem;
+        font-size: 1.06rem;
+        font-weight: 500;
+    }
+    .login-form .input-wrapper{
+        height: 54px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+    .login-form .input-wrapper .input-field{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 1.06rem;
+        border-radius: 0.31rem;
+        border: 1px solid #d5cbff;
+        padding: 0 1.25rem 0 3.12rem;
+        transition: 0.2s ease;
+        color: rgb(226, 194, 134)
+    }
+    .login-form .input-wrapper .input-field::placeholder{
+        color: rgb(226, 194, 134);
+        font-size: 17px;
+        font-family: Questrial, sans-serif;
+    }
+    .login-form .input-wrapper .icon{
+        color: rgb(226, 194, 134);
+        font-size: 19px;
+        font-weight: 600;
+        position: absolute;
+        top: 54%;
+        left: 0.9rem;
+        pointer-events: none;
+        transform: translateY(-50%);
+        transition: 0.2s ease;
+    }
+    .login-form .login-button{
+        width: 100%;
+        height: 54px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        color: #000;
+        background: #fff;
+        font-weight: 500;
+        font-size: 1.125rem;
+        font-family: Questrial, sans-serif;
+        margin-top: 2.19rem;
+        border-radius: 0.31rem;
+        transition: 0.5s all;
+        position: relative;
+        z-index: 0;
+    }    
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .login-page{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .login-image{
+        width: 600px;
+        height: 510px;
+    }
+    .login-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .login-container{
+        width: 600px;
+        height: 510px;
+        background-color: #a68d6f;
+        padding: 2rem 1.5rem;
+    }
+    .login-container .form-title{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 1.7rem;
+        font-family: Questrial, sans-serif;
+        color: #fff;
+    }
+    .login-container .social-login{
+        display: flex;
+        gap: 1.2rem;
+    }
+    .social-login .social-button{
+        display: flex;
+        width: 100%;
+        gap: 0.81rem;
+        cursor: pointer;
+        font-size: 1rem;
+        font-family: Questrial, sans-serif;
+        font-weight: 500;
+        padding: 0.4rem 0;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.31rem;
+        border: 1px solid #fff;
+        background: #fff;
+        transition: 0.5s ease;
+        color: #000;
+    }
+    .social-login .social-button img{
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+    .login-container .separator{
+        margin: 1.2rem 0;
+        text-align: center;
+        position: relative;
+        color: #fff;
+    }
+    .login-container .separator span{
+        position: relative;
+        z-index: 1;
+        background-color: #a68d6f;
+        padding: 0 0.8rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .login-form .input-wrapper{
+        height: 45px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.2rem;
+        position: relative;
+    }
+    .login-form .input-wrapper .input-field{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 0.31rem;
+        border: 1px solid #d5cbff;
+        padding: 0 1.1rem 0 3rem;
+        transition: 0.2s ease;
+        color: rgb(226, 194, 134)
+    }
+    .login-form .input-wrapper .input-field::placeholder{
+        color: rgb(226, 194, 134);
+        font-size: 16px;
+        font-family: Questrial, sans-serif;
+    }
+    .login-form .input-wrapper .icon{
+        color: rgb(226, 194, 134);
+        font-size: 17.5px;
+        font-weight: 600;
+        position: absolute;
+        top: 54%;
+        left: 0.9rem;
+        pointer-events: none;
+        transform: translateY(-50%);
+        transition: 0.2s ease;
+    }
+    .login-form .login-button{
+        width: 100%;
+        height: 45px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        color: #000;
+        background: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: Questrial, sans-serif;
+        margin-top: 2rem;
+        border-radius: 0.31rem;
+        transition: 0.5s all;
+        position: relative;
+        z-index: 0;
+    }    
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .login-page{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .login-image{
+        width: 600px;
+        height: 530px;
+    }
+    .login-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .login-container{
+        width: 600px;
+        height: 510px;
+        background-color: #a68d6f;
+        padding: 2rem 1.5rem;
+    }
+    .login-container .form-title{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 1.7rem;
+        font-family: Questrial, sans-serif;
+        color: #fff;
+    }
+    .login-container .social-login{
+        display: flex;
+        gap: 1.2rem;
+    }
+    .social-login .social-button{
+        display: flex;
+        width: 100%;
+        gap: 0.81rem;
+        cursor: pointer;
+        font-size: 1rem;
+        font-family: Questrial, sans-serif;
+        font-weight: 500;
+        padding: 0.4rem 0;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.31rem;
+        border: 1px solid #fff;
+        background: #fff;
+        transition: 0.5s ease;
+        color: #000;
+    }
+    .social-login .social-button img{
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+    .login-container .separator{
+        margin: 1.2rem 0;
+        text-align: center;
+        position: relative;
+        color: #fff;
+    }
+    .login-container .separator span{
+        position: relative;
+        z-index: 1;
+        background-color: #a68d6f;
+        padding: 0 0.8rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .login-form .input-wrapper{
+        height: 45px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.2rem;
+        position: relative;
+    }
+    .login-form .input-wrapper .input-field{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 0.31rem;
+        border: 1px solid #d5cbff;
+        padding: 0 1.1rem 0 3rem;
+        transition: 0.2s ease;
+        color: rgb(226, 194, 134)
+    }
+    .login-form .input-wrapper .input-field::placeholder{
+        color: rgb(226, 194, 134);
+        font-size: 16px;
+        font-family: Questrial, sans-serif;
+    }
+    .login-form .input-wrapper .icon{
+        color: rgb(226, 194, 134);
+        font-size: 17.5px;
+        font-weight: 600;
+        position: absolute;
+        top: 54%;
+        left: 0.9rem;
+        pointer-events: none;
+        transform: translateY(-50%);
+        transition: 0.2s ease;
+    }
+    .login-form .login-button{
+        width: 100%;
+        height: 45px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        color: #000;
+        background: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+        font-family: Questrial, sans-serif;
+        margin-top: 2rem;
+        border-radius: 0.31rem;
+        transition: 0.5s all;
+        position: relative;
+        z-index: 0;
+    }
+}

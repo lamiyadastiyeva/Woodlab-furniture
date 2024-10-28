@@ -1,0 +1,125 @@
+{
+  "header": {
+    "1": "Home",
+    "2": "About",
+    "3": "Blog",
+    "4": "Shop",
+    "5": "Contact"
+  },
+  "footer": {
+    "footer-title1": "Quick Links",
+    "footer-title2": "Address",
+    "footer-title3": "Newsletter",
+    "footer-map": "2593 Timbercrest Road, Chisana, Alaska Badalas United State",
+    "footer-phone": "(+91)7-723-4608",
+    "footer-mail": "furniture@gmail.com",
+    "footer-text": "Enter your email address and register to be aware of the updates",
+    "placeholder": "Your mail",
+    "footer-btn": "Login"
+  },
+  "home-sec1": {
+    "slider-p": "SPRING COLLECTION",
+    "slider-btn": "Shop Now",
+    "slider1-title": "Spring Collection 2024",
+    "slider2-title": "Summer Collection 2024",
+    "slider3-title": "Outdoor Dining Chair Sale"
+  },
+  "home-sec2": {
+    "card1-p": "20% off all weeks",
+    "card1-title": "Offer Sale In Next 10 Days",
+    "card2-p": "50% off quick delivery",
+    "card2-title": "Spaces with modern",
+    "card-btn": "Shop Now"
+  },
+  "slider": {
+    "slider-title": "From Our Blog",
+    "slider-p": "This furniture exceeded my expectations in terms of functionality and comfort. The thoughtful ergonomic design provides excellent support and…",
+    "slider1-span": "Furniture",
+    "slider1-title": "Post format video blogs",
+    "slider2-span": "Table",
+    "slider2-title": "Post format audio blogs",
+    "slider3-span": "Chair",
+    "slider3-title": "Post format gallery blogs",
+    "slider4-span": "Cabinet"
+  },
+  "home-sec3": {
+    "bg-span": "20% OFF ALL ITEMS",
+    "bg-title": "A Commitment To Quality",
+    "bg-p": "To help stem the flow of plastic into the ocean, we have committed to eliminating single-use plastic from th product range and food outlets by 2024.",
+    "bg-btn": "Shop Now"
+  },
+  "home-sec6": {
+    "slider-text": "Fits perfectly, also super comfortable! I can tell this one will be loved and in style for a very long time!",
+    "slider-title1": "Ann Smith",
+    "slider-title2": "Celine",
+    "slider-title3": "Delta Ryan"
+  },
+  "home-sec7": {
+    "title": "Furniture Interior"
+  },
+  "about-sec1": {
+    "about-title": "About Us"
+  },
+  "about-sec3": {
+    "about-span": "WE DESIGN FURNITURE",
+    "about-title1": "Simple Creative",
+    "about-title2": "Design Quaility",
+    "about-text": "Familiar furniture unexpectedly accumulates dust in the house.Choosing and using suitable furniture is of great significance in reducing the amount of dust accumulated…"
+  },
+  "about-sec2": {
+    "about-title": "The furture of Funori",
+    "about-span": "GETTING BETTER AND BETTER – TOGETHER"
+  },
+  "about-sec4": {
+    "title1": "Dining Table Board Santa Rosa",
+    "text": "Care should be taken when placing hot items directly on the table. Use a trivet or surface pad when serving heated dishes.",
+    "title2": "Harris Fitted Slipcover Chair"
+  },
+  "shop": {
+    "title": "All Products"
+  },
+  "contact-sec2": {
+    "title": "Information",
+    "text": "Add:",
+    "phone": "Phone:",
+    "mail": "Mail:"
+  },
+  "contact-sec4": {
+    "title": "Contact details",
+    "placeholder-name": "Name",
+    "placeholder-email": "Email Address",
+    "placeholder-phone": "Number Phone",
+    "placeholder-message": "Comment or Message *",
+    "btn": "Send Message"
+  },
+  "contact-sec5": {
+    "title": "Subscribe To Our Newsletter!",
+    "text": "Don’t miss the latest news on our brands and products, 15% off your first purchase.",
+    "placeholder-email": "Your email",
+    "btn": "Send"
+  },
+  "basket": {
+    "title1": "Product image",
+    "title2": "Product name",
+    "title3": "Price",
+    "title4": "Quantity",
+    "text1": "Card :",
+    "text2": "Total items :",
+    "text3": "Total price :",
+    "text4": "Your basket is empty...",
+    "btn": "Keep shopping"
+  },
+  "login-sec1": {
+    "title": "Login"
+  },
+  "login-sec2": {
+    "text1": "Google",
+    "text2": "Iphone",
+    "span": "or",
+    "placeholder1": "Email address",
+    "placeholder2": "Password",
+    "text3": "Forgot Password?",
+    "text4": "Don't have an account?",
+    "text5": "Signup now"
+  }
+}

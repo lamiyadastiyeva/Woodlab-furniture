@@ -1,0 +1,194 @@
+.about-sec2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+.about-sec2 h2{
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+}
+.about-sec2 span{
+    font-family: Questrial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #868686;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.about-sec2-image{
+    width: 100%;
+    height: 683px;
+    position: relative;
+    overflow: hidden;
+}
+.about-sec2-image img{
+    width: 100%;
+    height: 100%;
+    transition: 1s all;
+    cursor: pointer;
+}
+.about-sec2-image:hover img{
+    transform: scale(1.2);
+}
+.about-sec2-image .hover{
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: .3;
+    transition: 1s all;
+    cursor: pointer;
+}
+.about-sec2-image:hover .hover{
+    height: 683px;
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .about-sec2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .about-sec2 h2{
+        margin-bottom: 15px;
+        font-size: 42px;
+        font-family: Questrial, sans-serif;
+        font-weight: 400;
+        line-height: 1;
+        color: #000;
+    }
+    .about-sec2 span{
+        font-family: Questrial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #868686;
+        letter-spacing: 1.9px;
+        margin-bottom: 40px;
+    }
+    .about-sec2-image{
+        width: 100% !important;
+        height: 630px !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .about-sec2-image img{
+        width: 100% !important;
+        height: 100% !important;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .about-sec2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .about-sec2 h2{
+        margin-bottom: 15px;
+        font-size: 39px;
+        font-family: Questrial, sans-serif;
+        font-weight: 400;
+        line-height: 1;
+        color: #000;
+    }
+    .about-sec2 span{
+        font-family: Questrial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+        color: #868686;
+        letter-spacing: 1.7px;
+        margin-bottom: 40px;
+    }
+    .about-sec2-image{
+        width: 100% !important;
+        height: 580px !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .about-sec2-image img{
+        width: 100% !important;
+        height: 100% !important;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .about-sec2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .about-sec2 h2{
+        margin-bottom: 15px;
+        font-size: 36px;
+        font-family: Questrial, sans-serif;
+        font-weight: 400;
+        line-height: 1;
+        color: #000;
+    }
+    .about-sec2 span{
+        font-family: Questrial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #868686;
+        letter-spacing: 1.5px;
+        margin-bottom: 40px;
+    }
+    .about-sec2-image{
+        width: 100% !important;
+        height: 530px !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .about-sec2-image img{
+        width: 100% !important;
+        height: 100% !important;
+        transition: 1s all;
+        cursor: pointer;
+        object-fit: cover;
+    }
+}

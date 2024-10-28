@@ -1,0 +1,180 @@
+.images-hover{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+}
+.images-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.images-title h2{
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    font-family: Questrial, sans-serif;
+}
+.image-hover{
+    width: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    margin: 15px;
+}
+.image-hover img{
+    width: 100%;
+    height: 100%;
+    transition: all 1.1s;
+    cursor: pointer;
+}
+.image-hover:hover img{
+    transform: scale(1.2);
+}
+.image-hover .hover{
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
+    transition: .5s;
+}
+.image-hover .instagram{
+    position: absolute;
+    top: 133px;
+    left: 133px;
+    visibility: hidden;
+    color: white;
+    font-size: 3px;
+}
+.image-hover:hover .hover{
+    height: 450px;
+    width: 100%;
+}
+.image-hover:hover .instagram{
+    visibility: visible;
+    transition-delay: .3s;
+    transition: .5s;
+    font-size: 27px;
+    z-index: 1;
+}
+
+@media(max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 1200px !important;
+        box-sizing: border-box;
+    }
+    .images-hover{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .image-hover{
+        width: 280px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin: 15px;
+    }
+    .image-hover img{
+        width: 100%;
+        height: 100%;
+        transition: all 1.1s;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 991px !important;
+        box-sizing: border-box;
+    }
+    .images-hover{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .image-hover{
+        width: 260px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin: 15px;
+    }
+    .image-hover img{
+        width: 100%;
+        height: 100%;
+        transition: all 1.1s;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        max-width: 768px !important;
+        box-sizing: border-box;
+    }
+    .images-hover{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .image-hover{
+        width: 240px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        margin: 15px;
+    }
+    .image-hover img{
+        width: 100%;
+        height: 100%;
+        transition: all 1.1s;
+        cursor: pointer;
+    }
+}
